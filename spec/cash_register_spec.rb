@@ -1,6 +1,8 @@
 describe 'CashRegister' do
   let(:cash_register) { CashRegister.new }
   let(:cash_register_with_discount) { CashRegister.new(20) }
+  # let(:book1) { Book.new('hp')}
+  # let(:book2) { Book.new('something else')}
 
   describe '::new' do
     it 'sets an instance variable @total on initialization to zero' do
